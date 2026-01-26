@@ -1,0 +1,6 @@
+mvn -B archetype:generate `
+  -DgroupId=com.example.envelope `
+  -DartifactId=envelope-finance-tracker `
+  -DarchetypeArtifactId=maven-archetype-quickstart `
+  -DarchetypeVersion=1.4 `
+  -DinteractiveMode=false
