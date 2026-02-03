@@ -36,3 +36,28 @@ envelope-finance-tracker
 │   └── BudgetEasyApplication.java
 │
 └── pom.xml          # Parent Maven configuration
+
+💡 Core Concepts
+Envelope
+
+Represents a bucket of money (e.g. Groceries, Rent, Entertainment).
+
+Money (Value Object)
+
+Immutable
+
+Currency-safe
+
+Uses BigDecimal with enforced scale
+
+Prevents invalid arithmetic (currency mismatches, negatives, etc.)
+
+Transaction Types
+
+INCOME – adds money to an envelope
+
+EXPENSE – removes money from an envelope
+
+TRANSFER – moves money between envelopes
+
+All rules are enforced at the domain level.
