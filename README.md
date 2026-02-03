@@ -61,3 +61,51 @@ EXPENSE – removes money from an envelope
 TRANSFER – moves money between envelopes
 
 All rules are enforced at the domain level.
+
+▶️ Running the Project
+Build everything
+mvn clean test
+
+Run the API
+mvn -pl api spring-boot:run
+
+
+The server will start on:
+
+http://localhost:8080
+
+🛠️ Current Status
+
+✅ Multi-module Maven setup
+✅ Spring Boot API module
+✅ Domain model (Money, Envelope, Transaction, Category)
+✅ Health endpoint
+
+🗺️ Roadmap
+
+ Application-layer use cases
+
+ In-memory repositories
+
+ REST endpoints for envelopes & transactions
+
+ Persistence with PostgreSQL + Flyway
+
+ Authentication
+
+ Frontend or mobile client
+
+🎯 Goals of This Project
+
+Demonstrate real-world backend architecture
+
+Practice DDD and clean separation of concerns
+
+Serve as a strong portfolio project
+
+Be extendable into a full personal finance app
+
+🧠 Author
+
+Built by Mason
+GitHub: https://github.com/mayson208
